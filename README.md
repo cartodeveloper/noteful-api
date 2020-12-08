@@ -1,1 +1,1 @@
-# Noteful Server Assignment built with PostrgreSQL, Express, and Node.js.
+# Noteful Api Assignment built with PostrgreSQL, Express, and Node.js.
