@@ -39,7 +39,7 @@ notesRouter
         console.log(newNote);
         res
           .status(201)
-          .location(path.posix.join(req.originalUrl + `/${note.id}`))
+          .location(`/api/notes/${note.id}`)
           .json(serializeNotes(note));
       })
       .catch(next);
