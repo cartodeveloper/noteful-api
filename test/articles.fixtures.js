@@ -1,5 +1,5 @@
 const returnSomething = () => {
-  return 'Hello, boilerplate!'
-}
+  return "Hello, Notefull app!";
+};
 
 module.exports = returnSomething;

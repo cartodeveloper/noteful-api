@@ -1,6 +1,6 @@
 INSERT INTO folders ( name )
     VALUES 
-        ('To-Do'),
+        ('Goals'),
         ('Reminders'),
         ('Birthdays'),
         ('Work'),
@@ -8,5 +8,5 @@ INSERT INTO folders ( name )
         ('Holidays'),
         ('Productivity'),
         ('Miscellaneous'),
-        ('Goals')
+        ('Ela')
 ; 
