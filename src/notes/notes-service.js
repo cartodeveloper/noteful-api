@@ -15,10 +15,10 @@ const NotesService = {
     return knex.from("notes").select("*").where("id", id).first();
   },
   deleteNote(knex, id) {
-    return knex("folders").where({ id }).delete();
+    return knex("notes").where({ id }).delete();
   },
   updateNote(knex, newNoteFields) {
-    return knex("folders").where({ id }).update(newNoteFields);
+    return knex("notes").where({ id }).update(newNoteFields);
   },
 };
 
